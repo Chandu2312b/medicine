@@ -1,0 +1,59 @@
+.health-checkup {
+  text-align: center;
+  background: linear-gradient(135deg, #ff6b6b, #ffcc5c);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+}
+
+h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.checkup-button {
+  background: #ff4757;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.checkup-button:hover {
+  background: #e84118;
+}
+
+.result-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 8px;
+}

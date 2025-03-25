@@ -1,0 +1,75 @@
+.emergency-container {
+    text-align: center;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin: 50px auto;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .sos-button {
+    background-color: #d80000;
+    color: white;
+  }
+  
+  .sos-button:hover {
+    background-color: #a60000;
+  }
+  
+  .location-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .location-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .sms-button {
+    background-color: #ffa500;
+    color: white;
+  }
+  
+  .sms-button:hover {
+    background-color: #cc8400;
+  }
+  
+  .ambulance-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .ambulance-button:hover {
+    background-color: #1e7e34;
+  }
+  
+  .location-text {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
