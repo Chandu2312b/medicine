@@ -16,7 +16,8 @@ const HealthCheckup = () => {
       setBpResult("Low BP (Hypotension) - Consider drinking more water and consult a doctor.");
     } else if (systolic >= 90 && systolic <= 120 && diastolic >= 60 && diastolic <= 80) {
       setBpResult("Normal BP - Keep maintaining a healthy lifestyle!");
-    } else if (systolic > 120 && systolic <= 140 || diastolic > 80 && diastolic <= 90) {
+    } else if ((systolic > 120 && systolic <= 140) || (diastolic > 80 && diastolic <= 90)) {
+
       setBpResult("Pre-High BP - Monitor your diet and exercise.");
     } else {
       setBpResult("High BP (Hypertension) - Consult a doctor immediately.");
